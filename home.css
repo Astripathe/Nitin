@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Dancing+Script&family=Roboto+Mono:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.left{
+    margin-left: 2%;
+    font-size: 5%;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 5px;
+    animation: heartbeat 2s linear 0.1s infinite ;
+}
+.main-div{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9%;
+    width: 100%;
+    box-shadow: 0px 0px 5px rgb(54, 49, 49);
+}
+.right{
+    font-size: 5%;
+}
+.right a{
+    margin-right: 5px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Mono', monospace;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+.right a:nth-child(1){
+    padding: 2px 2px;
+    background-color: #2B65EC;
+    color: white;
+    border-radius: 2px;
+    border: 1px solid #2B65EC;
+}
+.right a:nth-child(2){
+    padding: 2px 2px;
+    background-color: #089d82;
+    color: white;
+    border-radius: 2px;
+    border: 1px solid #089d82;
+}
+/* .right a:hover{
+    transition: 1s;
+    box-shadow: 50px 0px 0px white inset;
+    color: black;} */
+.middle ul{
+    display: flex;
+    list-style: none;
+    font-size: 1%;
+    cursor: pointer;
+}
+.middle ul li{
+    padding: 0px 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Mono', monospace;
+}
+.middle ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 7px;
+    font-weight: bold;
+}
+.main-div li:nth-child(1) a {
+    color: #23a6e7;
+}
+.main-div li:nth-child(2) a {
+    color: #23a6e7;
+}
+@keyframes heartbeat {
+    0%{
+        transform: scale(1);
+        color: rgb(16, 133, 165);
+    } 
+    20%{
+        transform: scale(1.5);
+    }  
+    40%{
+        transform: scale(1);
+        color: rgb(226, 31, 31);
+    }
+    60%{
+        transform: scale(1.5);
+    } 
+    80%{
+        transform: scale(1);
+        color: rgb(19, 199, 85);
+    }
+    100%{
+        transform: scale(1.5);
+    }   
+}
+.main-section{
+    height: 91%;
+    text-align: center;
+    padding-top: 10px;
+}
+.welcont p{
+    font-size: 1%;
+    padding-top: 5px;
+}
+.container{
+    margin: 5%;
+    font-size: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40%;
+    width: 90%;
+}
+.box{
+    padding-top: 5px;
+    text-align: center;
+    height: 100px;
+    width: 20%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1),0px 0px 10px rgba(0, 0, 0, 0.1);
+    background:linear-gradient(130deg,rgba(0,0,0,0.1) 50%,transparent 50%);   
+
+}
+.box img{
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+}
+.box p{
+    padding: 4px 0px; 
+}
+.box a{
+    text-decoration: none;
+    padding: 2px 2px;
+    background-color: #23a6e7;
+    color: white;
+    border-radius: 5px;
+}
+.box a:hover{
+    transition: 1s;
+    /* box-shadow: 50px 0px 0px rgb(217, 238, 168) inset; */
+    color: black;
+}
+.h{
+    margin-top: 2%;
+    text-align: center;
+}
+.box:hover{
+    transition: 1s;
+    /* box-shadow: 100px 0px 0px rgb(165, 158, 158) inset; */
+    background-color: #d1daf0;
+    
+}
+footer{
+    width: 100%;
+    height: 16.6vh;
+    background-color: black;
+    font-size: 1%;
+    color: azure;
+}
+.main-div1{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding: 10px 5px;
+}
+.copy1{
+    display: flex;
+    flex-direction: column;
+}
+.copy{
+    background-color: rgb(57, 56, 56);
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+    
+}
+.copy img{
+    padding: 0px 5px;
+    height: 5px;
+}
+.hello1{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1);
+}
